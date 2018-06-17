@@ -3,8 +3,8 @@
 * 2018/06/17
 
 ## example screen shot
-![a1_1](https://github.com/JonJee/javascriptstudy/blob/master/img/assignment1_1.png)
-![a1_2](https://github.com/JonJee/javascriptstudy/blob/master/img/assignment1_2.png)
+![a1_1](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_1.png)
+![a1_2](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_2.png)
 
 ## Spec
 * HTML **15점**
