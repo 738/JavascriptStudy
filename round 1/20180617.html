@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        first
+    </title>
+    <style>
+        #hello {
+            color: red;
+        }
+
+        #hello2 {
+            color: blue;
+        }
+
+        .big {
+            font-size: 50px;
+        }
+
+        #mydiv {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>12111111</h1>
+    <h2>222222</h2>
+    <h3>333333</h3>
+    <p id="hello" class="big">hello world</p>
+    <p id="hello2" class="big">jon</p>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+
+    <input type="button" value="버튼2" onclick="clickButton()" />
+    <input type="text" placeholder="이름을 입력해주세요." />
+    <div id="mydiv"></div>
+    <script>
+        var isHide = false;
+        function clickButton() {
+            // alert("hello fast five!");
+            // document.getElementById("hello").innerHTML = "goodbye world"
+            // if (isHide) {
+            //     document.getElementById('mydiv').classList.remove('hide');
+            //     isHide = false;
+            // }
+            // else {
+            //     document.getElementById('mydiv').classList.add('hide');
+            //     isHide = true;
+            // }
+            document.getElementById('mydiv').classList.toggle('hide');
+        }
+        // let i = 0;
+        // while (i < 10) {
+        //     console.log(i);
+        //     i++;
+        // }
+
+        for (let i = 0; i < 10; i++) {
+            for (let j = 0; j < 10; j++) {
+                console.log(`${i} ${j}`);
+            }
+        }
+    </script>
+</body>
+
+</html>
