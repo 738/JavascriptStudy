@@ -68,4 +68,4 @@ for (let i = 2; i < 10; i++) {
 ```
 
 * Assignment
-    * [assignment1]()
+    * [assignment1](https://github.com/JonJee/JavascriptStudy/blob/master/round%201/assignment1.md)
