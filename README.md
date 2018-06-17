@@ -67,8 +67,9 @@ for (let i = 2; i < 10; i++) {
 }
 ```
 
-* Assignment
-    * [assignment1](https://github.com/JonJee/JavascriptStudy/blob/master/round%201/assignment1.md)
+* Assignment 1주차
+    * [assignment1_1](https://github.com/JonJee/JavascriptStudy/blob/master/round%201/assignment1_1.md)
+    * [assignment1_2](https://github.com/JonJee/JavascriptStudy/blob/master/round%201/assignment1_2.md)
     
 * 참고할만한 사이트
    * [홈짱](http://www.homejjang.com/)
