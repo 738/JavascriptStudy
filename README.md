@@ -16,5 +16,29 @@
     * while
     * for
         * 구구단
+
+```javascript
+// 버튼 누르면 div 나타났다 사라졌다 토글하기
+let isHide = false;
+function clickButton() {
+    if (isHide) {
+        document.getElementById('mydiv').classList.remove('hide');
+        isHide = false;
+    }
+    else {
+        document.getElementById('mydiv').classList.add('hide');
+        isHide = true;
+    }
+}
+```
+```javascript
+// 구구단
+for (let i = 2; i < 10; i++) {
+    for (let j = 1; j < 10; j++) {
+        console.log(`${i} x ${j} = ${i * j}`);
+    }
+}
+```
+
 * Assignment
     * [assignment1]()
