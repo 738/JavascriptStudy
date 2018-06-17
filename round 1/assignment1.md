@@ -5,10 +5,12 @@
 ## example screen shot
 ![a1_1](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_1.png)
 
-------------------------------------------
+예제 스크린샷 1
 
 
 ![a1_2](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_2.png)
+
+예제 스크린샷 2
 
 ## Spec
 * HTML **15점**
