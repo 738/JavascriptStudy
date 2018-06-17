@@ -16,7 +16,34 @@
     * while
     * for
         * 구구단
+```css
+// css basic
+p {
+    /* color: red; */
+}
 
+#hello {
+    color: red;
+}
+
+#hello2 {
+    color: blue;
+}
+
+.big {
+    font-size: 50px;
+}
+
+#mydiv {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.hide {
+    display: none;
+}
+```
 ```javascript
 // 버튼 누르면 div 나타났다 사라졌다 토글하기
 let isHide = false;
