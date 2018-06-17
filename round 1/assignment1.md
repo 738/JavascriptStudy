@@ -4,6 +4,10 @@
 
 ## example screen shot
 ![a1_1](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_1.png)
+
+------------------------------------------
+
+
 ![a1_2](https://github.com/JonJee/javascriptstudy/blob/master/round%201/img/assignment1_2.png)
 
 ## Spec
