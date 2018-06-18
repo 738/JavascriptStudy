@@ -16,6 +16,24 @@
     * while
     * for
         * 구구단
+        
+```html
+<!-- html basic -->
+<h1>12111111</h1>
+<h2>222222</h2>
+<h3>333333</h3>
+<p id="hello" class="big">hello world</p>
+<p id="hello2" class="big">jon</p>
+<ol>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ol>
+<button>버튼1</button>
+<input type="button" value="버튼2" onclick="clickButton()" />
+<input type="text" placeholder="이름을 입력해주세요." />
+<div id="mydiv"></div>
+```
 ```css
 // css basic
 p {
