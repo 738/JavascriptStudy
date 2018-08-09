@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<title>promise example</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	 crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="hello">
+		<a>sdf</a>
+	</div>
+	<ul>
+		<li>111</li>
+		<li>222</li>
+		<li id="active">333</li>
+	</ul>
+	<script>
+		let dom = document.getElementById("hello");
+		console.log(dom.firstElementChild);
+		console.log(dom.nextElementSibling.lastElementChild.previousElementSibling.parentElement);
+		// console.log($('li').length);
+		// console.log($('li')[0]);
+		// var lis = $('li');
+		// lis.map((index, ele) => {
+		// 	$(ele).css('color', 'blue');
+		// });
+		// var active = document.getElementById('active');
+		// console.log(active.id);
+		// active.id = 'deactive';
+		// console.log(active.id);
+		// console.group("before");
+		// var li = document.getElementById('active');
+		// console.log(li.style);
+		// console.groupEnd();
+		// var lis = document.getElementsByTagName('li');
+		// console.log(lis.constructor.name);
+		// for (var i = 0; i < lis.length; i++) {
+		// 	lis[i].style.color = 'red';
+		// }
+
+		// console.log(window.document);
+		// console.log(location.toString(), location.href);
+		// console.log(location.protocol);
+		// console.log(location.host); 
+		// console.log(location.port);
+		// console.log(location.pathname); 
+		// console.log(location.search);
+		// console.log(location.hash);
+
+		// console.log(navigator);
+
+		// window.open("https://nasd.app", '_blank', 'width=500, height=700, resizable=no');
+		// if(confirm('a')) {
+		// 	document.getElementById("hello").innerHTML = "OK";
+		// } else {
+		// 	document.getElementById("hello").innerHTML = "NO";
+		// }
+		// $(document).ready(function() {
+		// 	$("div#hello").text("hello2")
+		// 	$("div#hello").click(function() {
+		// 		$(this).text("hello")
+		// 	})
+		// });
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution 1</title>
+    </head>
+    <style>
+    body {
+        margin: 30px;
+    }
+    #input1 {
+        background-color: pink;
+    }
+    #input2 {
+        background-color: greenyellow;
+    }
+    input {
+        border: 0px;        /* 테두리 없음 */
+        font-size: 20px;
+    }
+
+    </style>
+    <body>
+        <input type="text" id="input1" size="10"/>
+        <input type="text" id="input2" size="10"/>
+        <input type="button" value="+" id="plus" onclick="plus()" />
+        <input type="button" value="-" id="minus" onclick="minus()" />
+        <p>result: <span id="result"></span></p>
+        <script>
+            var input1, input2;
+
+            function plus() {
+                if(renewInput() == false) {
+                    alertWarning();
+                    return;
+                }
+                document.getElementById('result').innerHTML = input1 + input2;
+            }
+
+            function minus() {
+                if(renewInput() == false) {
+                    alertWarning();
+                    return;
+                }
+                document.getElementById('result').innerHTML = input1 - input2;
+            }
+
+            function renewInput() {
+                input1 = parseInt(document.getElementById('input1').value);
+                input2 = parseInt(document.getElementById('input2').value);
+                if (isNaN(input1) || isNaN(input2)) return false;
+                return true;
+            }
+
+            function alertWarning() {
+                alert('올바른 값이 아닙니다. 다시 입력해주세요.');
+                document.getElementById('input1').value = '';
+                document.getElementById('input2').value = '';
+            }
+        </script>
+    </body>
+</html>
