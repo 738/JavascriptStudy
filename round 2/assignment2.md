@@ -22,14 +22,14 @@
 
 ### 함수 만들기
 ```js
-function sol(num) {
+function gugudan(num) {
     // TODO
 }
 ```
 
 ### 예상되는 결과값
 ```js
-sol(3);
+gugudan(3);
 // 3 X 2 = 6
 // 3 X 3 = 9
 // 3 X 4 = 12
@@ -39,7 +39,7 @@ sol(3);
 // 3 X 8 = 24
 // 3 X 9 = 27
 
-sol(19);
+gugudan(19);
 // 19 X 2 = 38
 // 19 X 3 = 57
 // 19 X 4 = 76
